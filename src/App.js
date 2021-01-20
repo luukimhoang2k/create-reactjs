@@ -3,22 +3,45 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={'https://scontent.fdad5-1.fna.fbcdn.net/v/t1.0-9/136684606_763780191217093_6837990110215288843_o.jpg?_nc_cat=111&ccb=2&_nc_sid=e3f864&_nc_ohc=DrYmaWO-9oYAX_Ai-wb&_nc_ht=scontent.fdad5-1.fna&oh=b554205063063d60f81bd9a35a937dbe&oe=602D72DC'} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <div className="heading">
+          <div className="img-heading">
+              <img src={'https://cdn.iconscout.com/icon/free/png-256/avatar-380-456332.png'} alt="avatar" className="img-div"/>
+          </div>
+                <h1 className="name-h1">Hello</h1>
+                <h3 className="name-h2">My Name is...</h3>
+                <div className="heading1">
+                    <h1>introducing Yourseft Self</h1>
+                    <h1>introduction with Text Boxes</h1>
+                </div>
     </div>
+        <div className="main">
+            <div className="div-main1">
+                <div className="div2-main">
+                    <h2>Text Here 01</h2>
+                    <p>This slide is 100% editable. Adapt it to your needs and capture your audience's attention</p>
+                </div>
+            </div>
+            <div className="div-main2">
+                <div className="div2-main">
+                    <h2>Text Here 01</h2>
+                    <p>This slide is 100% editable. Adapt it to your needs and capture your audience's attention</p>
+                </div>
+            </div>
+            <div className="div-main3">
+                <div className="div2-main">
+                    <h2>Text Here 01</h2>
+                    <p>This slide is 100% editable. Adapt it to your needs and capture your audience's attention</p>
+                </div>
+            </div>
+            <div className="div-main4">
+                <div className="div2-main">
+                    <h2>Text Here 01</h2>
+                    <p>This slide is 100% editable. Adapt it to your needs and capture your audience's attention</p>
+                </div>
+            </div>
+        </div>
+  </div>
   );
 }
 

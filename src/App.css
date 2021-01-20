@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,89 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.heading{
+  position: absolute;
+  left: 10%;
+  top:5%;
+  /* border: 1px solid red; */
+  width: 80%;
+  height: 50%;
+  /* background-color: black; */
+}
+.img-div{
+  position: absolute;
+  margin: 7px;
+}
+.img-heading{
+  position: relative;
+  background-color:blue;
+  border-radius:140px;
+  width:270px;
+  height: 270px;
+}
+.heading1{
+ position: absolute;
+  left: 40%;
+  top:10%;
+  border-bottom: 3px solid blue;
+}
+.name-h1{
+  position: relative;
+  left: 60px;
+}
+.name-h2{
+  position: relative;
+  left: 30px;
+}
+.main{
+  position: relative;
+  width: 40%;
+  height: 400px;
+  left: 30%;
+  top:250px;
+  /* border: 1px solid blue; */
+}
+.div-main1{
+  border: 2px solid gray;
+  position: absolute;
+  width: 300px;
+  height: 200px;
+}
+.div-main2{
+  border: 2px solid gray;
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  left: 65%;
+
+}
+.div-main3{
+  border: 2px solid gray;
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  top:60%;
+}
+.div-main4{
+  border: 2px solid gray;
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  top:60%;
+  left:65%;
+}
+p{
+  text-align: center;
+  padding: 0px 50px 50px 50px;
+}
+h2{
+  text-align: center;
+}
+.div2-main{
+  margin: 9px 8px;
+  position: absolute;
+  width:280px;
+  height: 180px;
+  background-color:#F2F2F2;
 }
