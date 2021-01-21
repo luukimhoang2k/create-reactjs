@@ -1,9 +1,10 @@
+/* eslint-disable */
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div>
+    <>
     <div className="heading">
           <div className="img-heading">
               <img src={'https://cdn.iconscout.com/icon/free/png-256/avatar-380-456332.png'} alt="avatar" className="img-div"/>
@@ -41,7 +42,7 @@ function App() {
                 </div>
             </div>
         </div>
-  </div>
+  </>
   );
 }
 
