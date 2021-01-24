@@ -6,11 +6,17 @@ let a={
     name:"hoang",
     age:20,
     likes:[
-        {title :"game",
+        {title :"Game",
         content: "choi game vui !!!!",
     },
-    {title :"bóng",
-        content: "choi game vui !!!!",
+    {title :"Football",
+        content: "choi football vui !!!!",
+    },
+    {title :"Volleyball",
+        content: "choi volleyball !!!!",
+    },
+    {title :"Basketball",
+        content: "choi basketball !!!!",
     }
        
     ]
@@ -32,24 +38,13 @@ function App() {
                 </div>
     </div>
     <div className="main">
-           {a.likes.map(item=> <div className="div-main">
+           {a.likes.map(item => <div className="div-main">
                 <div className="div-main1">
                     <h2>{item.title}</h2>
                     <p>{item.content}</p>
                 </div>
             </div>)}
-            <div className="div-main">
-                <div className="div-main1">
-                    <h2>Text Here 01</h2>
-                    <p>This slide is 100% editable. Adapt it to your needs and capture your audience's attention</p>
-                </div>
-            </div>
-            <div className="div-main">
-                <div className="div-main1">
-                    <h2>Text Here 01</h2>
-                    <p>This slide is 100% editable. Adapt it to your needs and capture your audience's attention</p>
-                </div>
-            </div>    
+              
         </div>
   </>
   );
