@@ -2,49 +2,60 @@
 import logo from './logo.svg';
 import './App.css';
 
-let a={
-    name:"hoang",
+const a={
+    name:'hoàng',
     age:20,
-    likes:[
-        {title :"Game",
-        content: "choi game vui !!!!",
-    },
-    {title :"Football",
-        content: "choi football vui !!!!",
-    },
-    {title :"Volleyball",
-        content: "choi volleyball !!!!",
-    },
-    {title :"Basketball",
-        content: "choi basketball !!!!",
-    }      
-]
+    lists:[
+        {
+            title:'Football',
+            content:'Play Football'
+        },
+        {
+            title:'Volleyball',
+            content:'Play Volleyball'
+        },
+        {
+            title:'Basketball',
+            content:'Play basketball'
+        },
+        {
+            title:'Game',
+            content:'Play game'
+        }
+    ]
+
 };
 
-function App() {
-  return (
-    <>
-    <div className="heading">
-          <div className="img-heading">
-              <img src={'https://cdn.iconscout.com/icon/free/png-256/avatar-380-456332.png'} alt="avatar" className="img-div"/>
-          </div>
-                <h1 className="name-h1">Hello</h1>
-                <h3 className="name-h2">My Name is {a.name}</h3>
-                <div className="heading1">
-                    <h1>introducing Yourseft Self </h1>
-                    <h1>introduction with Text Boxes</h1>
+export default function App(proos){
+    return (<div className="layout">
+    <div className="layout_left">
+            <div className="avata">
+                <img src={logo}></img>
+            </div>
+            <div className="intro_basic">
+                <h2>Hello</h2>
+                <h3>My Name is {a.name}</h3>
             </div>
     </div>
-    <div className="main">
-           {a.likes.map(item => <div className="div-main">
-                <div className="div-main1">
-                    <h2>{item.title}</h2>
+    <div className="layout_right">
+        <div className="intro_basic1">
+            <h3>asdddddddddasdasdasdasdasd</h3>
+            <h3>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h3>
+        </div>
+        <div className="div_line">
+            <div className="line"></div>
+            <div className="circle left"></div>
+            <div className="circle right"></div>
+        </div>
+        <div className="div_content">
+            {a.lists.map(item => <div className="content">
+                <div className="content1">
+                    <h3>{item.title}</h3>
                     <p>{item.content}</p>
                 </div>
             </div>)}
+       </div>
     </div>
-  </>
-  );
+</div>)
 }
 
-export default App;
