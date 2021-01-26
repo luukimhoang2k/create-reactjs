@@ -17,11 +17,9 @@ let a={
     },
     {title :"Basketball",
         content: "choi basketball !!!!",
-    }
-       
-    ]
+    }      
+]
 };
-
 
 function App() {
   return (
@@ -35,7 +33,7 @@ function App() {
                 <div className="heading1">
                     <h1>introducing Yourseft Self </h1>
                     <h1>introduction with Text Boxes</h1>
-                </div>
+            </div>
     </div>
     <div className="main">
            {a.likes.map(item => <div className="div-main">
@@ -44,8 +42,7 @@ function App() {
                     <p>{item.content}</p>
                 </div>
             </div>)}
-              
-        </div>
+    </div>
   </>
   );
 }
